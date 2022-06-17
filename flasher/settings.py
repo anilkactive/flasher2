@@ -26,7 +26,7 @@ SECRET_KEY = 'qbw$+=b1m&&g%vn^#wh24q_9!$p+(4asn%h_pcp!ci@4cuo@0f'  #config('SECR
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['blinker-env.eba-ittep7em.us-west-2.elasticbeanstalk.com', '127.0.0.1', '34.212.151.107']
+ALLOWED_HOSTS = ['blinker-env.eba-ittep7em.us-west-2.elasticbeanstalk.com', '127.0.0.1', '34.212.151.107', '*']
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
