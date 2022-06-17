@@ -25,7 +25,7 @@ SECRET_KEY = 'qbw$+=b1m&&g%vn^#wh24q_9!$p+(4asn%h_pcp!ci@4cuo@0f'  #config('SECR
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['flasher2-env.eba-2rzmbkhs.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['flasher2-env.eba-2rzmbkhs.us-west-2.elasticbeanstalk.com', '127.0.0.1']
 
 
 # Application definition
@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'flasher.urls'
+ROOT_URLCONF = config('MURLS')
 
 TEMPLATES = [
     {
