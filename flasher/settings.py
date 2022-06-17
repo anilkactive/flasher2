@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = flasher.urls #config('MURLS')
+ROOT_URLCONF = 'flasher.urls' #config('MURLS')
 
 TEMPLATES = [
     {
