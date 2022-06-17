@@ -25,7 +25,7 @@ SECRET_KEY = 'qbw$+=b1m&&g%vn^#wh24q_9!$p+(4asn%h_pcp!ci@4cuo@0f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['flasher2-env.eba-2rzmbkhs.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
