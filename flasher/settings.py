@@ -156,7 +156,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 # STATIC_URL = '/static/'
-STATIC_URL = 'blinker-env.eba-ittep7em.us-west-2.elasticbeanstalk.com/static'
+STATIC_URL = 'blinker-env.eba-ittep7em.us-west-2.elasticbeanstalk.com/static/'
 STATIC_ROOT = BASE_DIR / 'static'
 STATICFILES_DIRS = [
     'flasher/static',
